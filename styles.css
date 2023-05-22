@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-rows: 50px 4fr 94px;
+  height: 100vh;
+}
+
+header {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links li {
+  margin: 0 8px;
+}
+
+.nav-links li a {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.apps-icon {
+  height: 24px;
+  width: 32px;
+  position: relative;
+  bottom: 6px;
+  color: #5f6368;
+}
+.profile {
+  background: #1f3b4ddc;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+.profile a {
+  color: #fefefe;
+}
+.profile p {
+  font-size: 1rem;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar img {
+  width: 24px;
+  height: 24px;
+}
+
+.mic {
+  object-fit: contain;
+}
+.micro {
+  position: absolute;
+  right: 60px;
+  top: 10px;
+}
+
+.camera {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.search-icon {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+#search-image {
+  width: 15px;
+  /* height: auto; */
+  object-fit: contain;
+}
+
+input {
+  width: 582px;
+  height: 46px;
+  border: 1px solid rgba(0, 0, 0, 0.122);
+  border-radius: 45px;
+}
+
+main {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer {
+  background-color: azure;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.first-div {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #dadce0;
+}
+
+.footer-nav {
+  background-color: #f2f2f2;
+  display: flex;
+}
+
+.search-bar button {
+  border: 1px hidden;
+  background-color: white;
+}
+
+.two-card {
+  display: flex;
+  gap: 20px;
+
+  
+  margin: 11px 4px;
+  color: #3c4043;
+  cursor: pointer;
+  line-height: 27px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  /* text-align: center; */
+  height: 36px;
+}
+
+.card-1 {
+  background-color: #f8f9fa;
+  padding: 5px 26px;
+  border-radius : 10px;
+}
+.card-2 {
+  background-color: #f8f9fa;
+  padding: 5px 26px;
+  border-radius : 5px;
+}
