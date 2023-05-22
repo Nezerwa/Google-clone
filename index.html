@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" type="image/png" href="img/24px.svg" />
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <li>
+            <a href="#"
+              ><img src="images/app-icon-svg.svg" alt="icon" class="apps-icon"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="google-image">
+        <img src="images/google.png" alt="google-image" />
+      </div>
+      <!-- <div class="search-bar">
+        <img src="images/search.png" alt="search-icon" class="search- icon" />
+        <input type="text" name="search" />
+        <img src="./images/mic.png" alt="mic-image" />
+      </div> -->
+      <div class="search-bar">
+        <form action="https://www.google.com/search" method="GET">
+          <input type="text" />
+          <button type="submit" class="search-icon">
+            <img src="images/search-icon-google.png" alt="search-icon" id="search-image" />
+          </button>
+          <button type="button" class="camera">
+            <img src="images/camera.webp" alt="Camera" />
+          </button>
+          <button type="button" class="micro">
+            <img src="images/mic.png" alt="mic-icon" class="mic" />
+          </button>
+        </form>
+      </div>
+
+      <div class="two-card">
+        <div class="card-1">Google Search</div>
+        <div class="card-2">I'm feeling Lucky</div>
+      </div>
+        <div class="google-offerd">
+          <ul class="languages">
+            <li><a href="#">Francais</a></li>
+            <li><a href="#">Kiswahili</a></li>
+            <li><a href="#">Ikinyarwanda</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="first-div">Rwanda</div>
+      <div class="footer-nav">
+        <div class="left">
+          <ul class="left-nav-ul">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search works</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul class="right-nav-ul">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Test</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
